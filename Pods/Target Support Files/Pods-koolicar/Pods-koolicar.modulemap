@@ -1,0 +1,6 @@
+framework module Pods_koolicar {
+  umbrella header "Pods-koolicar-umbrella.h"
+
+  export *
+  module * { export * }
+}

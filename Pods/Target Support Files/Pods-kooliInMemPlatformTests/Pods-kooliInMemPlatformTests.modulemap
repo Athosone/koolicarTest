@@ -1,0 +1,6 @@
+framework module Pods_kooliInMemPlatformTests {
+  umbrella header "Pods-kooliInMemPlatformTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

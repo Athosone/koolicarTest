@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46136D102F6FFC4C332560A8 /* Pods_kooliDomain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E5FB35016B43DA0A8B3EED /* Pods_kooliDomain.framework */; };
+		58085D071FACB2C6009B49DF /* kooliDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 58085D051FACB2C6009B49DF /* kooliDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58085D171FACB4D2009B49DF /* VehiclesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58085D161FACB4D2009B49DF /* VehiclesInteractor.swift */; };
+		58085D1B1FACB71E009B49DF /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58085D1A1FACB71E009B49DF /* Vehicle.swift */; };
+		58085D791FACC2DC009B49DF /* VehiclesRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58085D781FACC2DC009B49DF /* VehiclesRepositoryProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58085D021FACB2C6009B49DF /* kooliDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = kooliDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58085D051FACB2C6009B49DF /* kooliDomain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kooliDomain.h; sourceTree = "<group>"; };
+		58085D061FACB2C6009B49DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58085D161FACB4D2009B49DF /* VehiclesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesInteractor.swift; sourceTree = "<group>"; };
+		58085D1A1FACB71E009B49DF /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		58085D781FACC2DC009B49DF /* VehiclesRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesRepositoryProtocol.swift; sourceTree = "<group>"; };
+		A157E8EC3B8B1BBD0F1F52CA /* Pods-kooliDomain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kooliDomain.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-kooliDomain/Pods-kooliDomain.debug.xcconfig"; sourceTree = "<group>"; };
+		C036269794C24AA716BE9D8F /* Pods-kooliDomain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kooliDomain.release.xcconfig"; path = "../Pods/Target Support Files/Pods-kooliDomain/Pods-kooliDomain.release.xcconfig"; sourceTree = "<group>"; };
+		C3E5FB35016B43DA0A8B3EED /* Pods_kooliDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kooliDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58085CFE1FACB2C6009B49DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46136D102F6FFC4C332560A8 /* Pods_kooliDomain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF9AFFECD669AF19DA20CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3E5FB35016B43DA0A8B3EED /* Pods_kooliDomain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58085CF81FACB2C6009B49DF = {
+			isa = PBXGroup;
+			children = (
+				58085D041FACB2C6009B49DF /* kooliDomain */,
+				58085D031FACB2C6009B49DF /* Products */,
+				B14382A3031ADE4907152AD3 /* Pods */,
+				2FF9AFFECD669AF19DA20CA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58085D031FACB2C6009B49DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58085D021FACB2C6009B49DF /* kooliDomain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58085D041FACB2C6009B49DF /* kooliDomain */ = {
+			isa = PBXGroup;
+			children = (
+				58085D771FACC293009B49DF /* Repositories */,
+				58085D141FACB47A009B49DF /* Entries */,
+				58085D151FACB47A009B49DF /* Interactors */,
+				58085D051FACB2C6009B49DF /* kooliDomain.h */,
+				58085D061FACB2C6009B49DF /* Info.plist */,
+			);
+			path = kooliDomain;
+			sourceTree = "<group>";
+		};
+		58085D141FACB47A009B49DF /* Entries */ = {
+			isa = PBXGroup;
+			children = (
+				58085D1A1FACB71E009B49DF /* Vehicle.swift */,
+			);
+			path = Entries;
+			sourceTree = "<group>";
+		};
+		58085D151FACB47A009B49DF /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				58085D161FACB4D2009B49DF /* VehiclesInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		58085D771FACC293009B49DF /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				58085D781FACC2DC009B49DF /* VehiclesRepositoryProtocol.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B14382A3031ADE4907152AD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A157E8EC3B8B1BBD0F1F52CA /* Pods-kooliDomain.debug.xcconfig */,
+				C036269794C24AA716BE9D8F /* Pods-kooliDomain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58085CFF1FACB2C6009B49DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58085D071FACB2C6009B49DF /* kooliDomain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58085D011FACB2C6009B49DF /* kooliDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58085D0A1FACB2C6009B49DF /* Build configuration list for PBXNativeTarget "kooliDomain" */;
+			buildPhases = (
+				47E5FDDD59A77D1DA2A9980E /* [CP] Check Pods Manifest.lock */,
+				58085CFD1FACB2C6009B49DF /* Sources */,
+				58085CFE1FACB2C6009B49DF /* Frameworks */,
+				58085CFF1FACB2C6009B49DF /* Headers */,
+				58085D001FACB2C6009B49DF /* Resources */,
+				18BCE23CC7FD74F3E9036C5B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kooliDomain;
+			productName = kooliDomain;
+			productReference = 58085D021FACB2C6009B49DF /* kooliDomain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58085CF91FACB2C6009B49DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Ayrton;
+				TargetAttributes = {
+					58085D011FACB2C6009B49DF = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58085CFC1FACB2C6009B49DF /* Build configuration list for PBXProject "kooliDomain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58085CF81FACB2C6009B49DF;
+			productRefGroup = 58085D031FACB2C6009B49DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58085D011FACB2C6009B49DF /* kooliDomain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58085D001FACB2C6009B49DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BCE23CC7FD74F3E9036C5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-kooliDomain/Pods-kooliDomain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47E5FDDD59A77D1DA2A9980E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kooliDomain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58085CFD1FACB2C6009B49DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58085D1B1FACB71E009B49DF /* Vehicle.swift in Sources */,
+				58085D171FACB4D2009B49DF /* VehiclesInteractor.swift in Sources */,
+				58085D791FACC2DC009B49DF /* VehiclesRepositoryProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58085D081FACB2C6009B49DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58085D091FACB2C6009B49DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58085D0B1FACB2C6009B49DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A157E8EC3B8B1BBD0F1F52CA /* Pods-kooliDomain.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A275M4XNEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = kooliDomain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kooli.car.kooliDomain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58085D0C1FACB2C6009B49DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C036269794C24AA716BE9D8F /* Pods-kooliDomain.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A275M4XNEG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = kooliDomain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kooli.car.kooliDomain;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58085CFC1FACB2C6009B49DF /* Build configuration list for PBXProject "kooliDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58085D081FACB2C6009B49DF /* Debug */,
+				58085D091FACB2C6009B49DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58085D0A1FACB2C6009B49DF /* Build configuration list for PBXNativeTarget "kooliDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58085D0B1FACB2C6009B49DF /* Debug */,
+				58085D0C1FACB2C6009B49DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58085CF91FACB2C6009B49DF /* Project object */;
+}

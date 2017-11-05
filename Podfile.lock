@@ -1,0 +1,38 @@
+PODS:
+  - Hero (1.0.0)
+  - Nimble (7.0.2)
+  - RxBlocking (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+  - Swinject (2.1.1)
+  - SwinjectStoryboard (1.1.2):
+    - Swinject (~> 2.1)
+
+DEPENDENCIES:
+  - Hero
+  - Nimble
+  - RxBlocking
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - Swinject
+  - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Hero: 18e7cf8af41c04c8532d1430ac174004a9365c87
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  RxBlocking: 923c2c8106d80d7c2d6b276afd66ce3b10824836
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  Swinject: afea49fd95f392b41171669f165842879c48fad6
+  SwinjectStoryboard: 92e75763c3299cdf627bef98a5180dc894864336
+
+PODFILE CHECKSUM: 5792b05e20be079101cfc106cd2ffdf6376a08c2
+
+COCOAPODS: 1.3.1

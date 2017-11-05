@@ -1,0 +1,6 @@
+framework module Pods_kooliDomain {
+  umbrella header "Pods-kooliDomain-umbrella.h"
+
+  export *
+  module * { export * }
+}
